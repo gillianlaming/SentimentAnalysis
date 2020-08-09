@@ -18,3 +18,5 @@ The sentiment score was different between the sum of the positive words and the 
 
 As will be discussed in the evaluation of the model, the sentiment score that divides by total words proved to be more effective in identifying if a review was positive or negative. Due to the way it is calculated, the range of values were [-1,1], where 1 is perfectly positive and -1 is perfectly negative. 
     The last part of the sentiment calculations involved negation handling. In order to account for phrases like “not good” in which the negation word “not” changes the sentiment meaning of the word “good.” In order to handle this, we stored if a word had a negation word (“not”, “no”, “neither”, etc.) before it, and if it did, the value of the word was multiplied by negative to flip the sentiment of the original score.
+
+`To view the complete report, see SentimentAnalysisFindings.pdf `
